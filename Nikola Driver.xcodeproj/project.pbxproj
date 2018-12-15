@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06541DD51FEB8945004C0FB6 /* SigUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06541DD41FEB8945004C0FB6 /* SigUpVC.swift */; };
+		069EC6381FEBCACF00313492 /* DriverStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069EC6371FEBCACF00313492 /* DriverStatus.swift */; };
+		06A2B92D1FDE949E009DC314 /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B92B1FDE949E009DC314 /* countryCodes.json */; };
+		06A2B9311FDE94DA009DC314 /* CountryCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9301FDE94DA009DC314 /* CountryCodeCell.swift */; };
+		06A2B9341FDE94FB009DC314 /* CartypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9331FDE94FB009DC314 /* CartypeCell.swift */; };
+		06A2B9381FDEB5A9009DC314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B93A1FDEB5A9009DC314 /* Localizable.strings */; };
+		06A2B9461FDEBC7C009DC314 /* HelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9401FDEBC7C009DC314 /* HelpCell.swift */; };
+		06A2B9471FDEBC7C009DC314 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9411FDEBC7C009DC314 /* HomeCell.swift */; };
+		06A2B9481FDEBC7C009DC314 /* LogoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9421FDEBC7C009DC314 /* LogoutCell.swift */; };
+		06A2B9491FDEBC7C009DC314 /* ReadytoDriveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9431FDEBC7C009DC314 /* ReadytoDriveCell.swift */; };
+		06A2B94A1FDEBC7C009DC314 /* RideHistoryMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9441FDEBC7C009DC314 /* RideHistoryMenuCell.swift */; };
+		06A2B94B1FDEBC7C009DC314 /* UploadyourdocumentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B9451FDEBC7C009DC314 /* UploadyourdocumentsCell.swift */; };
+		09590B6B9EF3DDADBA355E26 /* Pods_Nikola_DriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7709DA8FE647D08D0AD57130 /* Pods_Nikola_DriverTests.framework */; };
+		1BC9081221BA92FE00659F0D /* Newicon 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9081121BA92FC00659F0D /* Newicon 1.png */; };
+		4B59EB561F8364A000E0E535 /* ChatReceiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B59EB541F8364A000E0E535 /* ChatReceiveCell.xib */; };
+		4B59EB571F8364A000E0E535 /* ChatSendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B59EB551F8364A000E0E535 /* ChatSendCell.xib */; };
+		4B80C5F51F7CBB1100FED677 /* Alert.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4B80C5F41F7CBB1100FED677 /* Alert.m4a */; };
+		4B80C5F81F7CD1B900FED677 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B80C5F71F7CD1B900FED677 /* AVFoundation.framework */; };
+		4B80C5FA1F7CE0BB00FED677 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80C5F91F7CE0BA00FED677 /* BaseVC.swift */; };
+		4B80C5FC1F7CE0ED00FED677 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80C5FB1F7CE0ED00FED677 /* JsonParser.swift */; };
+		6332207620EB4FFD00B018C3 /* AlertViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332207520EB4FFD00B018C3 /* AlertViewHelper.swift */; };
+		6342AF87203226FE009B740A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6342AF85203226FE009B740A /* Fabric.framework */; };
+		6342AF88203226FE009B740A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6342AF86203226FE009B740A /* Crashlytics.framework */; };
+		8909B3A81F614EF7002F8010 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909B3A61F614EF7002F8010 /* API.swift */; };
+		8909B3A91F614EF7002F8010 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909B3A71F614EF7002F8010 /* ForgotPasswordViewController.swift */; };
+		89CA966E1F666C9800C4A200 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CA966D1F666C9800C4A200 /* MBProgressHUD.m */; };
+		C10E55691F21563700C41337 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E55621F21563700C41337 /* ChatViewController.swift */; };
+		C10E556A1F21563700C41337 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10E55631F21563700C41337 /* ChatCell.xib */; };
+		C10E556B1F21563700C41337 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E55641F21563700C41337 /* SocketIOManager.swift */; };
+		C10E556C1F21563700C41337 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10E55651F21563700C41337 /* UserCell.xib */; };
+		C10E556D1F21563700C41337 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E55661F21563700C41337 /* BaseCell.swift */; };
+		C10E556E1F21563700C41337 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E55671F21563700C41337 /* ChatCell.swift */; };
+		C10E556F1F21563700C41337 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E55681F21563700C41337 /* UserCell.swift */; };
+		C10EE88F1F600BC7006E79C6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10EE88E1F600BC7006E79C6 /* ProfileViewController.swift */; };
+		C10EE8941F600F27006E79C6 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10EE8921F600F27006E79C6 /* SSRadioButton.swift */; };
+		C10EE8951F600F27006E79C6 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10EE8931F600F27006E79C6 /* SSRadioButtonsController.swift */; };
+		C10EE8971F60101D006E79C6 /* CountryPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10EE8961F60101D006E79C6 /* CountryPopupController.swift */; };
+		C1176D351F0EE43100D80A6F /* ReadyToDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1176D341F0EE43100D80A6F /* ReadyToDriveViewController.swift */; };
+		C11FF76F1EF3EFCC0040CF60 /* MainDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FF76E1EF3EFCC0040CF60 /* MainDriverViewController.swift */; };
+		C11FF7731EF3F0A50040CF60 /* MainMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FF7711EF3F0A50040CF60 /* MainMapsViewController.swift */; };
+		C11FF7751EF3F55D0040CF60 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FF7741EF3F55D0040CF60 /* Const.swift */; };
+		C11FF7771EF3FA370040CF60 /* RequestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FF7761EF3FA370040CF60 /* RequestDetail.swift */; };
+		C13731BB1F4707C100D6BFB8 /* UploadDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13731BA1F4707C100D6BFB8 /* UploadDocumentsViewController.swift */; };
+		C13731BD1F470DB400D6BFB8 /* UploadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13731BC1F470DB400D6BFB8 /* UploadItem.swift */; };
+		C13731C21F4AF1C400D6BFB8 /* DocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13731C11F4AF1C400D6BFB8 /* DocumentCell.swift */; };
+		C15D8A231EF7CEB00042CB52 /* HRToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8A221EF7CEB00042CB52 /* HRToast.swift */; };
+		C15D8A261EF7CF470042CB52 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8A241EF7CF470042CB52 /* PlaceMarker.swift */; };
+		C15D8A271EF7CF470042CB52 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8A251EF7CF470042CB52 /* GooglePlace.swift */; };
+		C15D8A2B1EF7E3E70042CB52 /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15D8A281EF7E3E70042CB52 /* MarkerInfoView.xib */; };
+		C15D8A2C1EF7E3E70042CB52 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8A291EF7E3E70042CB52 /* UIViewExtension.swift */; };
+		C15D8A2D1EF7E3E70042CB52 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8A2A1EF7E3E70042CB52 /* MarkerInfoView.swift */; };
+		C18ABCCF1EF16D3300C41E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCCE1EF16D3300C41E6C /* AppDelegate.swift */; };
+		C18ABCD11EF16D3300C41E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCD01EF16D3300C41E6C /* ViewController.swift */; };
+		C18ABCD41EF16D3300C41E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18ABCD21EF16D3300C41E6C /* Main.storyboard */; };
+		C18ABCD61EF16D3300C41E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18ABCD51EF16D3300C41E6C /* Assets.xcassets */; };
+		C18ABCD91EF16D3300C41E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18ABCD71EF16D3300C41E6C /* LaunchScreen.storyboard */; };
+		C18ABCE41EF16D3500C41E6C /* Nikola_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCE31EF16D3500C41E6C /* Nikola_DriverTests.swift */; };
+		C18ABCEF1EF29AA200C41E6C /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCEE1EF29AA200C41E6C /* GetStartedViewController.swift */; };
+		C18ABCF31EF29B7600C41E6C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCF01EF29B7600C41E6C /* SignInViewController.swift */; };
+		C18ABCF41EF29B7600C41E6C /* SidemenuNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCF11EF29B7600C41E6C /* SidemenuNavigationViewController.swift */; };
+		C18ABCFA1EF29BE900C41E6C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18ABCF91EF29BE900C41E6C /* SWRevealViewController.m */; };
+		C19320521F55B8B80014BC81 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19320511F55B8B80014BC81 /* HelpViewController.swift */; };
+		C19320581F55B9220014BC81 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19320541F55B9220014BC81 /* RideDetailsViewController.swift */; };
+		C19320591F55B9220014BC81 /* RideHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19320551F55B9220014BC81 /* RideHistoryCell.swift */; };
+		C193205A1F55B9220014BC81 /* RideHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19320561F55B9220014BC81 /* RideHistoryItem.swift */; };
+		C193205B1F55B9220014BC81 /* RideHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19320571F55B9220014BC81 /* RideHistoryViewController.swift */; };
+		C193205D1F59B2780014BC81 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193205C1F59B2780014BC81 /* UIFont.swift */; };
+		C19320671F59B2C50014BC81 /* Quicksand-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C193205F1F59B2C50014BC81 /* Quicksand-Bold.otf */; };
+		C19320681F59B2C50014BC81 /* Quicksand-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320601F59B2C50014BC81 /* Quicksand-BoldItalic.otf */; };
+		C19320691F59B2C50014BC81 /* Quicksand-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320611F59B2C50014BC81 /* Quicksand-Light.otf */; };
+		C193206A1F59B2C50014BC81 /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320621F59B2C50014BC81 /* Quicksand-Regular.otf */; };
+		C193206B1F59B2C50014BC81 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320631F59B2C50014BC81 /* SourceSansPro-Bold.otf */; };
+		C193206C1F59B2C50014BC81 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320641F59B2C50014BC81 /* SourceSansPro-Light.otf */; };
+		C193206D1F59B2C50014BC81 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320651F59B2C50014BC81 /* SourceSansPro-Regular.otf */; };
+		C193206E1F59B2C50014BC81 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C19320661F59B2C50014BC81 /* SourceSansPro-Semibold.otf */; };
+		C19320701F5E8E810014BC81 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193206F1F5E8E810014BC81 /* UITextField.swift */; };
+		C198ACB91F0555F3002919FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C198ACB81F0555F3002919FB /* GoogleService-Info.plist */; };
+		C19AFAC41EFFCB73001641E4 /* RequestAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AFAC31EFFCB73001641E4 /* RequestAnimationViewController.swift */; };
+		C1C3D5F01EF93203002DF9A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5EF1EF93203002DF9A5 /* User.swift */; };
+		C1C3D5F31EF932F9002DF9A5 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5F11EF932F8002DF9A5 /* RatingViewController.swift */; };
+		C1C3D5F41EF932F9002DF9A5 /* TravelMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5F21EF932F8002DF9A5 /* TravelMapViewController.swift */; };
+		C1C3D5F61EF93412002DF9A5 /* PreferenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5F51EF93412002DF9A5 /* PreferenceHelper.swift */; };
+		C1C3D5F91EF93460002DF9A5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5F81EF93460002DF9A5 /* String.swift */; };
+		C1C3D5FB1EF93572002DF9A5 /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5FA1EF93572002DF9A5 /* DATA.swift */; };
+		C1C3D5FD1EF93646002DF9A5 /* SideMenuTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3D5FC1EF93646002DF9A5 /* SideMenuTopCell.swift */; };
+		F0BE140F84A334177F6C5596 /* Pods_Nikola_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E86D71498C32A7D742F3A9 /* Pods_Nikola_Driver.framework */; };
+		F613DC171FBB07D30017F021 /* splash_Sc.png in Resources */ = {isa = PBXBuildFile; fileRef = F613DC161FBB07D30017F021 /* splash_Sc.png */; };
+		F646D7761FBECAE400012396 /* googleNavigation.png in Resources */ = {isa = PBXBuildFile; fileRef = F646D7751FBECAE400012396 /* googleNavigation.png */; };
+		F6A9B13D1FBC0BC10010AEB3 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A9B13B1FBC0BC10010AEB3 /* Splash.storyboard */; };
+		F6A9B13E1FBC0BC10010AEB3 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B13C1FBC0BC10010AEB3 /* SplashVC.swift */; };
+		F6A9B1401FBC11ED0010AEB3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A9B13F1FBC11ED0010AEB3 /* icon.png */; };
+		F6E581EF1FC070DE0086A5F1 /* newicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E581EE1FC070DE0086A5F1 /* newicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18ABCE01EF16D3500C41E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18ABCC31EF16D3200C41E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18ABCCA1EF16D3300C41E6C;
+			remoteInfo = "Nikola Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06541DD41FEB8945004C0FB6 /* SigUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigUpVC.swift; sourceTree = "<group>"; };
+		069EC6371FEBCACF00313492 /* DriverStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverStatus.swift; sourceTree = "<group>"; };
+		06A2B92B1FDE949E009DC314 /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
+		06A2B9301FDE94DA009DC314 /* CountryCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeCell.swift; sourceTree = "<group>"; };
+		06A2B9331FDE94FB009DC314 /* CartypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartypeCell.swift; sourceTree = "<group>"; };
+		06A2B93C1FDEB5B7009DC314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06A2B93E1FDEB5CD009DC314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06A2B9401FDEBC7C009DC314 /* HelpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCell.swift; sourceTree = "<group>"; };
+		06A2B9411FDEBC7C009DC314 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		06A2B9421FDEBC7C009DC314 /* LogoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutCell.swift; sourceTree = "<group>"; };
+		06A2B9431FDEBC7C009DC314 /* ReadytoDriveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadytoDriveCell.swift; sourceTree = "<group>"; };
+		06A2B9441FDEBC7C009DC314 /* RideHistoryMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideHistoryMenuCell.swift; sourceTree = "<group>"; };
+		06A2B9451FDEBC7C009DC314 /* UploadyourdocumentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadyourdocumentsCell.swift; sourceTree = "<group>"; };
+		06A2B94C1FDEC8A9009DC314 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		06A2B94D1FDEC8A9009DC314 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		06A2B94E1FDEC8A9009DC314 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		120062542C626E9B54650F44 /* Pods-Nikola DriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nikola DriverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nikola DriverTests/Pods-Nikola DriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC9081121BA92FC00659F0D /* Newicon 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Newicon 1.png"; path = "Assets.xcassets/AppIcon.appiconset/Newicon 1.png"; sourceTree = "<group>"; };
+		2472E5638DD4E110AF4CFEFC /* Pods-Nikola Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nikola Driver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver.release.xcconfig"; sourceTree = "<group>"; };
+		4B59EB541F8364A000E0E535 /* ChatReceiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatReceiveCell.xib; sourceTree = "<group>"; };
+		4B59EB551F8364A000E0E535 /* ChatSendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatSendCell.xib; sourceTree = "<group>"; };
+		4B80C5F41F7CBB1100FED677 /* Alert.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alert.m4a; sourceTree = "<group>"; };
+		4B80C5F71F7CD1B900FED677 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4B80C5F91F7CE0BA00FED677 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		4B80C5FB1F7CE0ED00FED677 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		6332207520EB4FFD00B018C3 /* AlertViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewHelper.swift; sourceTree = "<group>"; };
+		6342AF85203226FE009B740A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6342AF86203226FE009B740A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		756FF98592EE214FA913E136 /* Pods-Nikola Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nikola Driver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		7709DA8FE647D08D0AD57130 /* Pods_Nikola_DriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nikola_DriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E86D71498C32A7D742F3A9 /* Pods_Nikola_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nikola_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8909B3A61F614EF7002F8010 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8909B3A71F614EF7002F8010 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		895FD48D1F6A91FA00678E70 /* Nikola Driver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nikola Driver.entitlements"; sourceTree = "<group>"; };
+		89CA966C1F666C9800C4A200 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		89CA966D1F666C9800C4A200 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C10E55621F21563700C41337 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C10E55631F21563700C41337 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		C10E55641F21563700C41337 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		C10E55651F21563700C41337 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		C10E55661F21563700C41337 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		C10E55671F21563700C41337 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		C10E55681F21563700C41337 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C10EE88E1F600BC7006E79C6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C10EE8921F600F27006E79C6 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		C10EE8931F600F27006E79C6 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		C10EE8961F60101D006E79C6 /* CountryPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPopupController.swift; sourceTree = "<group>"; };
+		C1176D341F0EE43100D80A6F /* ReadyToDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyToDriveViewController.swift; sourceTree = "<group>"; };
+		C11FF76E1EF3EFCC0040CF60 /* MainDriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDriverViewController.swift; sourceTree = "<group>"; };
+		C11FF7711EF3F0A50040CF60 /* MainMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMapsViewController.swift; sourceTree = "<group>"; };
+		C11FF7741EF3F55D0040CF60 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C11FF7761EF3FA370040CF60 /* RequestDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDetail.swift; sourceTree = "<group>"; };
+		C13731BA1F4707C100D6BFB8 /* UploadDocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadDocumentsViewController.swift; sourceTree = "<group>"; };
+		C13731BC1F470DB400D6BFB8 /* UploadItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadItem.swift; sourceTree = "<group>"; };
+		C13731C11F4AF1C400D6BFB8 /* DocumentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentCell.swift; sourceTree = "<group>"; };
+		C15D8A221EF7CEB00042CB52 /* HRToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRToast.swift; sourceTree = "<group>"; };
+		C15D8A241EF7CF470042CB52 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		C15D8A251EF7CF470042CB52 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		C15D8A281EF7E3E70042CB52 /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		C15D8A291EF7E3E70042CB52 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C15D8A2A1EF7E3E70042CB52 /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		C18ABCCB1EF16D3300C41E6C /* Nikola Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nikola Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18ABCCE1EF16D3300C41E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C18ABCD01EF16D3300C41E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C18ABCD31EF16D3300C41E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18ABCD51EF16D3300C41E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18ABCD81EF16D3300C41E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18ABCDA1EF16D3300C41E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18ABCDF1EF16D3500C41E6C /* Nikola DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nikola DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18ABCE31EF16D3500C41E6C /* Nikola_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nikola_DriverTests.swift; sourceTree = "<group>"; };
+		C18ABCE51EF16D3500C41E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18ABCEE1EF29AA200C41E6C /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		C18ABCF01EF29B7600C41E6C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C18ABCF11EF29B7600C41E6C /* SidemenuNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuNavigationViewController.swift; sourceTree = "<group>"; };
+		C18ABCF71EF29BE800C41E6C /* Nikola Driver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nikola Driver-Bridging-Header.h"; sourceTree = "<group>"; };
+		C18ABCF81EF29BE900C41E6C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C18ABCF91EF29BE900C41E6C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C19320511F55B8B80014BC81 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C19320541F55B9220014BC81 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
+		C19320551F55B9220014BC81 /* RideHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideHistoryCell.swift; sourceTree = "<group>"; };
+		C19320561F55B9220014BC81 /* RideHistoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideHistoryItem.swift; sourceTree = "<group>"; };
+		C19320571F55B9220014BC81 /* RideHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideHistoryViewController.swift; sourceTree = "<group>"; };
+		C193205C1F59B2780014BC81 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		C193205F1F59B2C50014BC81 /* Quicksand-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.otf"; sourceTree = "<group>"; };
+		C19320601F59B2C50014BC81 /* Quicksand-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-BoldItalic.otf"; sourceTree = "<group>"; };
+		C19320611F59B2C50014BC81 /* Quicksand-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.otf"; sourceTree = "<group>"; };
+		C19320621F59B2C50014BC81 /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		C19320631F59B2C50014BC81 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		C19320641F59B2C50014BC81 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		C19320651F59B2C50014BC81 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		C19320661F59B2C50014BC81 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		C193206F1F5E8E810014BC81 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		C198ACB81F0555F3002919FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C19AFAC31EFFCB73001641E4 /* RequestAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAnimationViewController.swift; sourceTree = "<group>"; };
+		C1C3D5EF1EF93203002DF9A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C1C3D5F11EF932F8002DF9A5 /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		C1C3D5F21EF932F8002DF9A5 /* TravelMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelMapViewController.swift; sourceTree = "<group>"; };
+		C1C3D5F51EF93412002DF9A5 /* PreferenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceHelper.swift; sourceTree = "<group>"; };
+		C1C3D5F81EF93460002DF9A5 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C1C3D5FA1EF93572002DF9A5 /* DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+		C1C3D5FC1EF93646002DF9A5 /* SideMenuTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTopCell.swift; sourceTree = "<group>"; };
+		F613DC161FBB07D30017F021 /* splash_Sc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_Sc.png; sourceTree = "<group>"; };
+		F646D7751FBECAE400012396 /* googleNavigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleNavigation.png; sourceTree = "<group>"; };
+		F6A9B13B1FBC0BC10010AEB3 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		F6A9B13C1FBC0BC10010AEB3 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		F6A9B13F1FBC11ED0010AEB3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F6E581EE1FC070DE0086A5F1 /* newicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newicon.png; sourceTree = "<group>"; };
+		FCEB61B57188000740F2A709 /* Pods-Nikola DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nikola DriverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nikola DriverTests/Pods-Nikola DriverTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18ABCC81EF16D3300C41E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80C5F81F7CD1B900FED677 /* AVFoundation.framework in Frameworks */,
+				F0BE140F84A334177F6C5596 /* Pods_Nikola_Driver.framework in Frameworks */,
+				6342AF88203226FE009B740A /* Crashlytics.framework in Frameworks */,
+				6342AF87203226FE009B740A /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18ABCDC1EF16D3500C41E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09590B6B9EF3DDADBA355E26 /* Pods_Nikola_DriverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069EC6361FEBCAAE00313492 /* ExternalHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				069EC6371FEBCACF00313492 /* DriverStatus.swift */,
+			);
+			name = ExternalHelpers;
+			sourceTree = "<group>";
+		};
+		06A2B92A1FDE93B1009DC314 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				6332207520EB4FFD00B018C3 /* AlertViewHelper.swift */,
+				06A2B9321FDE94DE009DC314 /* UICollectionViewCell */,
+				06A2B92F1FDE94AD009DC314 /* UITableViewCell */,
+				06A2B92B1FDE949E009DC314 /* countryCodes.json */,
+				06541DD41FEB8945004C0FB6 /* SigUpVC.swift */,
+			);
+			name = SignUpVC;
+			sourceTree = "<group>";
+		};
+		06A2B92F1FDE94AD009DC314 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				06A2B9301FDE94DA009DC314 /* CountryCodeCell.swift */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		06A2B9321FDE94DE009DC314 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				06A2B9331FDE94FB009DC314 /* CartypeCell.swift */,
+			);
+			name = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		06A2B9351FDEB577009DC314 /* StringFiles */ = {
+			isa = PBXGroup;
+			children = (
+				06A2B93A1FDEB5A9009DC314 /* Localizable.strings */,
+			);
+			name = StringFiles;
+			sourceTree = "<group>";
+		};
+		06A2B93F1FDEBC73009DC314 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06A2B9401FDEBC7C009DC314 /* HelpCell.swift */,
+				06A2B9411FDEBC7C009DC314 /* HomeCell.swift */,
+				06A2B9421FDEBC7C009DC314 /* LogoutCell.swift */,
+				06A2B9431FDEBC7C009DC314 /* ReadytoDriveCell.swift */,
+				06A2B9441FDEBC7C009DC314 /* RideHistoryMenuCell.swift */,
+				06A2B9451FDEBC7C009DC314 /* UploadyourdocumentsCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4B53BC0C1F7FB93400653C4A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		4B80C5F31F7CBB0500FED677 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4B80C5F41F7CBB1100FED677 /* Alert.m4a */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		4B80C5F61F7CCF2B00FED677 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4B80C5FB1F7CE0ED00FED677 /* JsonParser.swift */,
+				4B80C5F91F7CE0BA00FED677 /* BaseVC.swift */,
+			);
+			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		89CA966B1F666C8500C4A200 /* Mbprogress */ = {
+			isa = PBXGroup;
+			children = (
+				89CA966C1F666C9800C4A200 /* MBProgressHUD.h */,
+				89CA966D1F666C9800C4A200 /* MBProgressHUD.m */,
+			);
+			name = Mbprogress;
+			sourceTree = "<group>";
+		};
+		C10E55611F21561400C41337 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C10E55621F21563700C41337 /* ChatViewController.swift */,
+				4B59EB541F8364A000E0E535 /* ChatReceiveCell.xib */,
+				4B59EB551F8364A000E0E535 /* ChatSendCell.xib */,
+				C10E55631F21563700C41337 /* ChatCell.xib */,
+				C10E55641F21563700C41337 /* SocketIOManager.swift */,
+				C10E55651F21563700C41337 /* UserCell.xib */,
+				C10E55661F21563700C41337 /* BaseCell.swift */,
+				C10E55671F21563700C41337 /* ChatCell.swift */,
+				C10E55681F21563700C41337 /* UserCell.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		C10EE8901F600F08006E79C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C10EE8911F600F10006E79C6 /* RadioButton */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C10EE8911F600F10006E79C6 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				C10EE8921F600F27006E79C6 /* SSRadioButton.swift */,
+				C10EE8931F600F27006E79C6 /* SSRadioButtonsController.swift */,
+			);
+			name = RadioButton;
+			sourceTree = "<group>";
+		};
+		C13731BE1F470DBA00D6BFB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C13731BF1F470DC700D6BFB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C13731BC1F470DB400D6BFB8 /* UploadItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C13731C01F4AF15D00D6BFB8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C13731C11F4AF1C400D6BFB8 /* DocumentCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C18ABCC21EF16D3200C41E6C = {
+			isa = PBXGroup;
+			children = (
+				6342AF86203226FE009B740A /* Crashlytics.framework */,
+				6342AF85203226FE009B740A /* Fabric.framework */,
+				C18ABCCD1EF16D3300C41E6C /* Nikola Driver */,
+				C18ABCE21EF16D3500C41E6C /* Nikola DriverTests */,
+				C18ABCCC1EF16D3300C41E6C /* Products */,
+				FF728619D7F503D5B0A6D72A /* Pods */,
+				E5F51BBAB59644882C6FBD12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C18ABCCC1EF16D3300C41E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18ABCCB1EF16D3300C41E6C /* Nikola Driver.app */,
+				C18ABCDF1EF16D3500C41E6C /* Nikola DriverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18ABCCD1EF16D3300C41E6C /* Nikola Driver */ = {
+			isa = PBXGroup;
+			children = (
+				069EC6361FEBCAAE00313492 /* ExternalHelpers */,
+				06A2B9351FDEB577009DC314 /* StringFiles */,
+				06A2B92A1FDE93B1009DC314 /* SignUpVC */,
+				F6A9B13A1FBC0BAC0010AEB3 /* SplashScreen */,
+				F613DC161FBB07D30017F021 /* splash_Sc.png */,
+				4B80C5F61F7CCF2B00FED677 /* BaseVC */,
+				4B80C5F31F7CBB0500FED677 /* Sound */,
+				895FD48D1F6A91FA00678E70 /* Nikola Driver.entitlements */,
+				C10EE8961F60101D006E79C6 /* CountryPopupController.swift */,
+				C10EE8901F600F08006E79C6 /* Utils */,
+				C10EE88E1F600BC7006E79C6 /* ProfileViewController.swift */,
+				4B53BC0C1F7FB93400653C4A /* New Group */,
+				89CA966B1F666C8500C4A200 /* Mbprogress */,
+				C193205E1F59B2A60014BC81 /* Resources */,
+				C19320531F55B90A0014BC81 /* RideHistory */,
+				C19320511F55B8B80014BC81 /* HelpViewController.swift */,
+				C13731BF1F470DC700D6BFB8 /* Models */,
+				C13731BE1F470DBA00D6BFB8 /* Views */,
+				C10E55611F21561400C41337 /* Chat */,
+				C198ACB81F0555F3002919FB /* GoogleService-Info.plist */,
+				C18ABCCE1EF16D3300C41E6C /* AppDelegate.swift */,
+				8909B3A71F614EF7002F8010 /* ForgotPasswordViewController.swift */,
+				C18ABCD51EF16D3300C41E6C /* Assets.xcassets */,
+				C11FF7741EF3F55D0040CF60 /* Const.swift */,
+				C1C3D5FA1EF93572002DF9A5 /* DATA.swift */,
+				8909B3A61F614EF7002F8010 /* API.swift */,
+				F6A9B13F1FBC11ED0010AEB3 /* icon.png */,
+				1BC9081121BA92FC00659F0D /* Newicon 1.png */,
+				F6E581EE1FC070DE0086A5F1 /* newicon.png */,
+				F646D7751FBECAE400012396 /* googleNavigation.png */,
+				C1C3D5F71EF93453002DF9A5 /* Extension */,
+				C18ABCEE1EF29AA200C41E6C /* GetStartedViewController.swift */,
+				C15D8A251EF7CF470042CB52 /* GooglePlace.swift */,
+				C15D8A221EF7CEB00042CB52 /* HRToast.swift */,
+				C18ABCDA1EF16D3300C41E6C /* Info.plist */,
+				C18ABCD71EF16D3300C41E6C /* LaunchScreen.storyboard */,
+				C18ABCD21EF16D3300C41E6C /* Main.storyboard */,
+				C11FF76E1EF3EFCC0040CF60 /* MainDriverViewController.swift */,
+				C11FF7711EF3F0A50040CF60 /* MainMapsViewController.swift */,
+				C15D8A2A1EF7E3E70042CB52 /* MarkerInfoView.swift */,
+				C15D8A281EF7E3E70042CB52 /* MarkerInfoView.xib */,
+				C15D8A241EF7CF470042CB52 /* PlaceMarker.swift */,
+				C1C3D5F51EF93412002DF9A5 /* PreferenceHelper.swift */,
+				C1C3D5F11EF932F8002DF9A5 /* RatingViewController.swift */,
+				C19AFAC31EFFCB73001641E4 /* RequestAnimationViewController.swift */,
+				C11FF7761EF3FA370040CF60 /* RequestDetail.swift */,
+				C18ABCF61EF29BD800C41E6C /* Sidemenu */,
+				C13731C01F4AF15D00D6BFB8 /* TableViewCells */,
+				C18ABCF11EF29B7600C41E6C /* SidemenuNavigationViewController.swift */,
+				C1C3D5FC1EF93646002DF9A5 /* SideMenuTopCell.swift */,
+				C18ABCF01EF29B7600C41E6C /* SignInViewController.swift */,
+				C1C3D5F21EF932F8002DF9A5 /* TravelMapViewController.swift */,
+				C1C3D5EF1EF93203002DF9A5 /* User.swift */,
+				C18ABCD01EF16D3300C41E6C /* ViewController.swift */,
+				C1176D341F0EE43100D80A6F /* ReadyToDriveViewController.swift */,
+				C13731BA1F4707C100D6BFB8 /* UploadDocumentsViewController.swift */,
+			);
+			path = "Nikola Driver";
+			sourceTree = "<group>";
+		};
+		C18ABCE21EF16D3500C41E6C /* Nikola DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				C18ABCE31EF16D3500C41E6C /* Nikola_DriverTests.swift */,
+				C18ABCE51EF16D3500C41E6C /* Info.plist */,
+			);
+			path = "Nikola DriverTests";
+			sourceTree = "<group>";
+		};
+		C18ABCF61EF29BD800C41E6C /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				06A2B93F1FDEBC73009DC314 /* Cell */,
+				C18ABCF81EF29BE900C41E6C /* SWRevealViewController.h */,
+				C18ABCF91EF29BE900C41E6C /* SWRevealViewController.m */,
+				C18ABCF71EF29BE800C41E6C /* Nikola Driver-Bridging-Header.h */,
+			);
+			name = Sidemenu;
+			sourceTree = "<group>";
+		};
+		C19320531F55B90A0014BC81 /* RideHistory */ = {
+			isa = PBXGroup;
+			children = (
+				C19320541F55B9220014BC81 /* RideDetailsViewController.swift */,
+				C19320551F55B9220014BC81 /* RideHistoryCell.swift */,
+				C19320561F55B9220014BC81 /* RideHistoryItem.swift */,
+				C19320571F55B9220014BC81 /* RideHistoryViewController.swift */,
+			);
+			name = RideHistory;
+			sourceTree = "<group>";
+		};
+		C193205E1F59B2A60014BC81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C193205F1F59B2C50014BC81 /* Quicksand-Bold.otf */,
+				C19320601F59B2C50014BC81 /* Quicksand-BoldItalic.otf */,
+				C19320611F59B2C50014BC81 /* Quicksand-Light.otf */,
+				C19320621F59B2C50014BC81 /* Quicksand-Regular.otf */,
+				C19320631F59B2C50014BC81 /* SourceSansPro-Bold.otf */,
+				C19320641F59B2C50014BC81 /* SourceSansPro-Light.otf */,
+				C19320651F59B2C50014BC81 /* SourceSansPro-Regular.otf */,
+				C19320661F59B2C50014BC81 /* SourceSansPro-Semibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C1C3D5F71EF93453002DF9A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C193206F1F5E8E810014BC81 /* UITextField.swift */,
+				C193205C1F59B2780014BC81 /* UIFont.swift */,
+				C15D8A291EF7E3E70042CB52 /* UIViewExtension.swift */,
+				C1C3D5F81EF93460002DF9A5 /* String.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E5F51BBAB59644882C6FBD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B80C5F71F7CD1B900FED677 /* AVFoundation.framework */,
+				84E86D71498C32A7D742F3A9 /* Pods_Nikola_Driver.framework */,
+				7709DA8FE647D08D0AD57130 /* Pods_Nikola_DriverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6A9B13A1FBC0BAC0010AEB3 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B13C1FBC0BC10010AEB3 /* SplashVC.swift */,
+				F6A9B13B1FBC0BC10010AEB3 /* Splash.storyboard */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		FF728619D7F503D5B0A6D72A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756FF98592EE214FA913E136 /* Pods-Nikola Driver.debug.xcconfig */,
+				2472E5638DD4E110AF4CFEFC /* Pods-Nikola Driver.release.xcconfig */,
+				120062542C626E9B54650F44 /* Pods-Nikola DriverTests.debug.xcconfig */,
+				FCEB61B57188000740F2A709 /* Pods-Nikola DriverTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18ABCCA1EF16D3300C41E6C /* Nikola Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18ABCE81EF16D3500C41E6C /* Build configuration list for PBXNativeTarget "Nikola Driver" */;
+			buildPhases = (
+				0E49FEFEB44B8B60A1534DBB /* [CP] Check Pods Manifest.lock */,
+				C18ABCC71EF16D3300C41E6C /* Sources */,
+				C18ABCC81EF16D3300C41E6C /* Frameworks */,
+				C18ABCC91EF16D3300C41E6C /* Resources */,
+				9FB66D97AE027F8649530DAF /* [CP] Embed Pods Frameworks */,
+				61E418D93DCA5D863EABC873 /* [CP] Copy Pods Resources */,
+				6342AF8420322645009B740A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nikola Driver";
+			productName = "Nikola Driver";
+			productReference = C18ABCCB1EF16D3300C41E6C /* Nikola Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18ABCDE1EF16D3500C41E6C /* Nikola DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18ABCEB1EF16D3500C41E6C /* Build configuration list for PBXNativeTarget "Nikola DriverTests" */;
+			buildPhases = (
+				CC1539604AEDF5A0E72CEAC8 /* [CP] Check Pods Manifest.lock */,
+				C18ABCDB1EF16D3500C41E6C /* Sources */,
+				C18ABCDC1EF16D3500C41E6C /* Frameworks */,
+				C18ABCDD1EF16D3500C41E6C /* Resources */,
+				2BAD5A0714241644F6AF8CAE /* [CP] Embed Pods Frameworks */,
+				FE9EEFFAEC4629FC0D9A7366 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18ABCE11EF16D3500C41E6C /* PBXTargetDependency */,
+			);
+			name = "Nikola DriverTests";
+			productName = "Nikola DriverTests";
+			productReference = C18ABCDF1EF16D3500C41E6C /* Nikola DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18ABCC31EF16D3200C41E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sutharshan;
+				TargetAttributes = {
+					C18ABCCA1EF16D3300C41E6C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LSTUV2T663;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C18ABCDE1EF16D3500C41E6C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7878MFV3JJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C18ABCCA1EF16D3300C41E6C;
+					};
+				};
+			};
+			buildConfigurationList = C18ABCC61EF16D3200C41E6C /* Build configuration list for PBXProject "Nikola Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = C18ABCC21EF16D3200C41E6C;
+			productRefGroup = C18ABCCC1EF16D3300C41E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18ABCCA1EF16D3300C41E6C /* Nikola Driver */,
+				C18ABCDE1EF16D3500C41E6C /* Nikola DriverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18ABCC91EF16D3300C41E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15D8A2B1EF7E3E70042CB52 /* MarkerInfoView.xib in Resources */,
+				4B59EB561F8364A000E0E535 /* ChatReceiveCell.xib in Resources */,
+				4B80C5F51F7CBB1100FED677 /* Alert.m4a in Resources */,
+				06A2B92D1FDE949E009DC314 /* countryCodes.json in Resources */,
+				C10E556A1F21563700C41337 /* ChatCell.xib in Resources */,
+				C19320671F59B2C50014BC81 /* Quicksand-Bold.otf in Resources */,
+				C18ABCD91EF16D3300C41E6C /* LaunchScreen.storyboard in Resources */,
+				C193206E1F59B2C50014BC81 /* SourceSansPro-Semibold.otf in Resources */,
+				C193206C1F59B2C50014BC81 /* SourceSansPro-Light.otf in Resources */,
+				C19320691F59B2C50014BC81 /* Quicksand-Light.otf in Resources */,
+				06A2B9381FDEB5A9009DC314 /* Localizable.strings in Resources */,
+				C193206D1F59B2C50014BC81 /* SourceSansPro-Regular.otf in Resources */,
+				C198ACB91F0555F3002919FB /* GoogleService-Info.plist in Resources */,
+				F6A9B1401FBC11ED0010AEB3 /* icon.png in Resources */,
+				F646D7761FBECAE400012396 /* googleNavigation.png in Resources */,
+				1BC9081221BA92FE00659F0D /* Newicon 1.png in Resources */,
+				C193206A1F59B2C50014BC81 /* Quicksand-Regular.otf in Resources */,
+				C19320681F59B2C50014BC81 /* Quicksand-BoldItalic.otf in Resources */,
+				4B59EB571F8364A000E0E535 /* ChatSendCell.xib in Resources */,
+				F6E581EF1FC070DE0086A5F1 /* newicon.png in Resources */,
+				C18ABCD61EF16D3300C41E6C /* Assets.xcassets in Resources */,
+				C18ABCD41EF16D3300C41E6C /* Main.storyboard in Resources */,
+				C193206B1F59B2C50014BC81 /* SourceSansPro-Bold.otf in Resources */,
+				F613DC171FBB07D30017F021 /* splash_Sc.png in Resources */,
+				C10E556C1F21563700C41337 /* UserCell.xib in Resources */,
+				F6A9B13D1FBC0BC10010AEB3 /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18ABCDD1EF16D3500C41E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E49FEFEB44B8B60A1534DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nikola Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAD5A0714241644F6AF8CAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nikola DriverTests/Pods-Nikola DriverTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nikola DriverTests/Pods-Nikola DriverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E418D93DCA5D863EABC873 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6342AF8420322645009B740A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2fcab2bae1b566318dc1f6b1551b01c3a7162e1a dc6fb8ae3d0bb596ccd390c0ed392a98a287d2a7db51dc052533544eb14ceb0e";
+		};
+		9FB66D97AE027F8649530DAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MRCountryPicker/MRCountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRCountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nikola Driver/Pods-Nikola Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1539604AEDF5A0E72CEAC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nikola DriverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9EEFFAEC4629FC0D9A7366 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nikola DriverTests/Pods-Nikola DriverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18ABCC71EF16D3300C41E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18ABCFA1EF29BE900C41E6C /* SWRevealViewController.m in Sources */,
+				C15D8A261EF7CF470042CB52 /* PlaceMarker.swift in Sources */,
+				4B80C5FC1F7CE0ED00FED677 /* JsonParser.swift in Sources */,
+				C15D8A271EF7CF470042CB52 /* GooglePlace.swift in Sources */,
+				C15D8A231EF7CEB00042CB52 /* HRToast.swift in Sources */,
+				C19320701F5E8E810014BC81 /* UITextField.swift in Sources */,
+				C11FF76F1EF3EFCC0040CF60 /* MainDriverViewController.swift in Sources */,
+				06541DD51FEB8945004C0FB6 /* SigUpVC.swift in Sources */,
+				C18ABCF31EF29B7600C41E6C /* SignInViewController.swift in Sources */,
+				06A2B9341FDE94FB009DC314 /* CartypeCell.swift in Sources */,
+				C15D8A2C1EF7E3E70042CB52 /* UIViewExtension.swift in Sources */,
+				06A2B94B1FDEBC7C009DC314 /* UploadyourdocumentsCell.swift in Sources */,
+				C18ABCEF1EF29AA200C41E6C /* GetStartedViewController.swift in Sources */,
+				C1176D351F0EE43100D80A6F /* ReadyToDriveViewController.swift in Sources */,
+				C193205B1F55B9220014BC81 /* RideHistoryViewController.swift in Sources */,
+				06A2B94A1FDEBC7C009DC314 /* RideHistoryMenuCell.swift in Sources */,
+				C15D8A2D1EF7E3E70042CB52 /* MarkerInfoView.swift in Sources */,
+				4B80C5FA1F7CE0BB00FED677 /* BaseVC.swift in Sources */,
+				C18ABCD11EF16D3300C41E6C /* ViewController.swift in Sources */,
+				C11FF7771EF3FA370040CF60 /* RequestDetail.swift in Sources */,
+				C10E556D1F21563700C41337 /* BaseCell.swift in Sources */,
+				C19320521F55B8B80014BC81 /* HelpViewController.swift in Sources */,
+				C10EE8951F600F27006E79C6 /* SSRadioButtonsController.swift in Sources */,
+				C1C3D5F91EF93460002DF9A5 /* String.swift in Sources */,
+				F6A9B13E1FBC0BC10010AEB3 /* SplashVC.swift in Sources */,
+				C10EE88F1F600BC7006E79C6 /* ProfileViewController.swift in Sources */,
+				C10EE8971F60101D006E79C6 /* CountryPopupController.swift in Sources */,
+				6332207620EB4FFD00B018C3 /* AlertViewHelper.swift in Sources */,
+				C1C3D5FD1EF93646002DF9A5 /* SideMenuTopCell.swift in Sources */,
+				C19AFAC41EFFCB73001641E4 /* RequestAnimationViewController.swift in Sources */,
+				8909B3A81F614EF7002F8010 /* API.swift in Sources */,
+				06A2B9491FDEBC7C009DC314 /* ReadytoDriveCell.swift in Sources */,
+				C11FF7731EF3F0A50040CF60 /* MainMapsViewController.swift in Sources */,
+				C18ABCCF1EF16D3300C41E6C /* AppDelegate.swift in Sources */,
+				89CA966E1F666C9800C4A200 /* MBProgressHUD.m in Sources */,
+				C10EE8941F600F27006E79C6 /* SSRadioButton.swift in Sources */,
+				069EC6381FEBCACF00313492 /* DriverStatus.swift in Sources */,
+				C1C3D5F01EF93203002DF9A5 /* User.swift in Sources */,
+				06A2B9481FDEBC7C009DC314 /* LogoutCell.swift in Sources */,
+				C13731BB1F4707C100D6BFB8 /* UploadDocumentsViewController.swift in Sources */,
+				06A2B9471FDEBC7C009DC314 /* HomeCell.swift in Sources */,
+				C1C3D5F41EF932F9002DF9A5 /* TravelMapViewController.swift in Sources */,
+				C1C3D5FB1EF93572002DF9A5 /* DATA.swift in Sources */,
+				06A2B9311FDE94DA009DC314 /* CountryCodeCell.swift in Sources */,
+				C1C3D5F31EF932F9002DF9A5 /* RatingViewController.swift in Sources */,
+				C10E556E1F21563700C41337 /* ChatCell.swift in Sources */,
+				C193205D1F59B2780014BC81 /* UIFont.swift in Sources */,
+				C193205A1F55B9220014BC81 /* RideHistoryItem.swift in Sources */,
+				C19320581F55B9220014BC81 /* RideDetailsViewController.swift in Sources */,
+				C13731BD1F470DB400D6BFB8 /* UploadItem.swift in Sources */,
+				C18ABCF41EF29B7600C41E6C /* SidemenuNavigationViewController.swift in Sources */,
+				C10E556B1F21563700C41337 /* SocketIOManager.swift in Sources */,
+				C1C3D5F61EF93412002DF9A5 /* PreferenceHelper.swift in Sources */,
+				06A2B9461FDEBC7C009DC314 /* HelpCell.swift in Sources */,
+				C19320591F55B9220014BC81 /* RideHistoryCell.swift in Sources */,
+				C13731C21F4AF1C400D6BFB8 /* DocumentCell.swift in Sources */,
+				8909B3A91F614EF7002F8010 /* ForgotPasswordViewController.swift in Sources */,
+				C10E556F1F21563700C41337 /* UserCell.swift in Sources */,
+				C10E55691F21563700C41337 /* ChatViewController.swift in Sources */,
+				C11FF7751EF3F55D0040CF60 /* Const.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18ABCDB1EF16D3500C41E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18ABCE41EF16D3500C41E6C /* Nikola_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C18ABCE11EF16D3500C41E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18ABCCA1EF16D3300C41E6C /* Nikola Driver */;
+			targetProxy = C18ABCE01EF16D3500C41E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06A2B93A1FDEB5A9009DC314 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06A2B93C1FDEB5B7009DC314 /* en */,
+				06A2B93E1FDEB5CD009DC314 /* Base */,
+				06A2B94E1FDEC8A9009DC314 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C18ABCD21EF16D3300C41E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18ABCD31EF16D3300C41E6C /* Base */,
+				06A2B94D1FDEC8A9009DC314 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C18ABCD71EF16D3300C41E6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18ABCD81EF16D3300C41E6C /* Base */,
+				06A2B94C1FDEC8A9009DC314 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18ABCE61EF16D3500C41E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18ABCE71EF16D3500C41E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18ABCE91EF16D3500C41E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756FF98592EE214FA913E136 /* Pods-Nikola Driver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Nikola Driver/Nikola Driver.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Alfa (7JJTWU4F9K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LSTUV2T663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Nikola Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Troline.driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nikola Driver/Nikola Driver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C18ABCEA1EF16D3500C41E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2472E5638DD4E110AF4CFEFC /* Pods-Nikola Driver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Nikola Driver/Nikola Driver.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Alfa (7JJTWU4F9K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSTUV2T663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Nikola Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Troline.driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nikola Driver/Nikola Driver-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C18ABCEC1EF16D3500C41E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120062542C626E9B54650F44 /* Pods-Nikola DriverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7878MFV3JJ;
+				INFOPLIST_FILE = "Nikola DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prov.app.Nikola-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikola Driver.app/Nikola Driver";
+			};
+			name = Debug;
+		};
+		C18ABCED1EF16D3500C41E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEB61B57188000740F2A709 /* Pods-Nikola DriverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7878MFV3JJ;
+				INFOPLIST_FILE = "Nikola DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prov.app.Nikola-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikola Driver.app/Nikola Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18ABCC61EF16D3200C41E6C /* Build configuration list for PBXProject "Nikola Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18ABCE61EF16D3500C41E6C /* Debug */,
+				C18ABCE71EF16D3500C41E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18ABCE81EF16D3500C41E6C /* Build configuration list for PBXNativeTarget "Nikola Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18ABCE91EF16D3500C41E6C /* Debug */,
+				C18ABCEA1EF16D3500C41E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18ABCEB1EF16D3500C41E6C /* Build configuration list for PBXNativeTarget "Nikola DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18ABCEC1EF16D3500C41E6C /* Debug */,
+				C18ABCED1EF16D3500C41E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18ABCC31EF16D3200C41E6C /* Project object */;
+}

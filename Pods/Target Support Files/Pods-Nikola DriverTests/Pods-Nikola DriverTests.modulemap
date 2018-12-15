@@ -1,0 +1,6 @@
+framework module Pods_Nikola_DriverTests {
+  umbrella header "Pods-Nikola DriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

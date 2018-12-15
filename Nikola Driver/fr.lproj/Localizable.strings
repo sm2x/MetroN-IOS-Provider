@@ -1,0 +1,195 @@
+/*
+ localizable.strings
+ Nikola
+ 
+ Created by sudharsan s on 01/12/17.
+ Copyright © 2017 Nikola. All rights reserved.
+ */
+"Phone Number" = "Numéro de téléphone";
+
+"CONFIRM PHONE NUMBER" = "CONFIRMER LE NUMÉRO DE TÉLÉPHONE";
+
+"Request Password" = "Mot de passe";
+
+"Forgot Password?" = "Mot de passe oublié?";
+
+"Forgot Password" = "Mot de passe oublié";
+
+"Where are you going?" = "Où allez-vous?";
+
+"You will have your OTP sent to the following mobile number!" = "Vous aurez votre OTP envoyé au numéro de téléphone suivant!";
+
+"Not received your Otp?" = "Vous n'avez pas reçu votre Otp?";
+
+"VERIFY OTP" = "VERIFIER OTP";
+
+"NEXT" = "PROCHAIN";
+
+"FINISH" = "TERMINER";
+
+"Add Payment Options" = "Ajouter des options de paiement";
+
+"Wallet" = "Portefeuille";
+
+"Ride History" = "L'histoire de la randonnée";
+
+"Your scheduled rides" = "Vos trajets prévus";
+
+"Hourly Booking" = "Réservation à l'heure";
+
+"Airport ride booking" = "Réservation de trajet à l'aéroport";
+
+"Help" = "Aidez-moi";
+
+"Logout" = "Connectez - Out";
+
+"Use this screen to pre-book a ride to the Airport." = "Utilisez cet écran pour pré-réserver un tour à l'aéroport.";
+
+"Coming out?" = "Sortir?";
+
+"Going to Ariport" = "Aller à Ariport";
+
+"Set Pickup Location" = "Définir le lieu de ramassage";
+
+"Set Your Date & Time" = "Réglez votre date et heure";
+
+"Cancel" = "Annuler";
+
+"Done" = "Terminé";
+
+"No, its for a later date" = "Non, c'est pour une date ultérieure";
+
+"Use this screen to book Rentals i.e. Hour based Packages" = "Utilisez cet écran pour réserver des locations, c.-à-d.";
+
+"Enter No. of hours" = "Entrer No. d'heures";
+
+"Fare Details" = "Détails du prix";
+
+"Package Price" = "Prix ​​du coffret";
+
+"Distance" = "Distance";
+
+"Choose your destination" = "Choisissez votre destination";
+
+"Let's GO!" = "Allons-y!";
+
+"Fare Breakdown" = "Répartition des tarifs";
+
+"our fare will be the price presented before the trip or based on the rates below and other applicable surcharges and adjustments." = "notre tarif sera le prix présenté avant le voyage ou basé sur les tarifs ci-dessous et d'autres surtaxes et ajustements applicables.";
+
+"Base Fare" = "Basic Do";
+
+"Minimim Fare" = "Tarif minimum";
+
+"+Per Minute" = "+ Par minute";
+
+"+Per Mile" = "+ Par Mile";
+
+"Booking Fee" = "Frais de réservation";
+
+"Schedule a new ride" = "Planifier un nouveau trajet";
+
+"Select Date and time" = "Sélectionnez Date et heure";
+
+"Schedule" = "Programme";
+
+"Total Fare" = "Prix ​​total";
+
+"Home" = "Accueil";
+
+"Trip Summary" = "Résumé du voyage";
+
+"Rate the Customer" = "Noter le client";
+
+"Submit" = "Soumettre";
+
+"Approximate Fare" = "Tarif approximatif";
+
+"Capacity" = "Capacité";
+
+"Receipt" = "Le reçu";
+
+"Time" = "Temps";
+
+"Booking Fee" = "Frais de réservation";
+
+"Service Tax" = "Taxe de service";
+
+"TOTAL" = "TOTAL";
+
+"Requesting…" = "Demander ...";
+
+"Payment Type is Cash" = "Le type de paiement est en espèces";
+
+"Select Issue" = "Sélectionner un problème";
+
+"Select Payment Gateway!" = "Sélectionnez Passerelle de paiement!";
+
+"YOUR BALANCE" = "VOTRE SOLDE";
+
+"Messenger" = "Messenger";
+
+"Type your message" = "Tapez votre message";
+
+"Add Amount" = "Ajouter un montant";
+
+"Or connect using a social account" = "Ou connectez-vous en utilisant un compte social";
+
+"Email Id" = "Identifiant Email";
+
+"Sign In" = "Se connecter";
+
+"Sign Up" = "S'inscrire";
+
+"First Name" = "Prénom";
+
+"Last Name" = "Nom de famille";
+
+"Password" = "Mot de passe";
+
+"Male" = "Mâle";
+
+"Female" = "Femelle";
+
+"Select Your Country" = "Sélectionnez votre pays";
+
+"Serach" = "Serach";
+
+"Enter OTP Code" = "Entrez le code OTP";
+
+"RESEND" = "RENVOYER";
+
+"NEW USER?" = "NOUVEL UTILISATEUR?";
+
+"DRIVER ACCEPTED THE REQUEST" = "DRIVER ACCEPTE LA DEMANDE";
+
+"DRIVER IS ON THE WAY" = "LE CONDUCTEUR EST SUR LE CHEMIN";
+
+"DRIVER HAS ARRIVED AT YOUR PLACE" = "LE CONDUCTEUR EST ARRIVÉ À VOTRE ENDROIT";
+
+"YOUR TRIP HAS BEEN STARTED" = "VOTRE VOYAGE A COMMENCÉ";
+
+"YOUR TRIP IS COMPLETED" = "VOTRE VOYAGE EST TERMINÉ";
+
+"Are sure you want to logout." = "Êtes-vous sûr de vouloir vous déconnecter.";
+
+"Go Online/Go Offline" = "Aller en ligne / Go Offline";
+
+"PICKUP ADDRESS" = "ADRESSE DE PICKUP";
+
+"Drop location" = "Lieu de dépôt";
+
+"Ready to drive?" = "Prêt à conduire?";
+
+"Upload your documents" = "Téléchargez vos documents";
+
+"Use the button present above to toggle between Available & Not available ie. If you wish to take a break, you can trun-off your availability" = "Utilisez le bouton ci-dessus pour basculer entre Disponible et Non disponible, par exemple. Si vous souhaitez faire une pause, vous pouvez supprimer votre disponibilité";
+
+"Am available ow/Not driving now" = "Suis disponible ow / ne pas conduire maintenant";
+
+"What is this?" = "Qu'est-ce que c'est?";
+
+"Tap when Departed" = "Appuyez sur quand est parti";
+
+
+

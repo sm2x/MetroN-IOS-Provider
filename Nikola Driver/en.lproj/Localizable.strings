@@ -1,0 +1,197 @@
+/*
+ localizable.strings
+ Nikola
+ 
+ Created by sudharsan s on 01/12/17.
+ Copyright © 2017 Nikola. All rights reserved.
+ */
+"Phone Number" = "Phone Number";
+
+"CONFIRM PHONE NUMBER" = "CONFIRM PHONE NUMBER";
+
+"Request Password" = "Request Password";
+
+"Forgot Password?" = "Forgot Password?";
+
+"Forgot Password" = "Forgot Password";
+
+"Where are you going?" = "Where are you going?";
+
+"You will have your OTP sent to the following mobile number!" = "You will have your OTP sent to the following mobile number!";
+
+"Not received your Otp?" = "Not received your Otp?";
+
+"VERIFY OTP" = "VERIFY OTP";
+
+"NEXT" = "NEXT";
+
+"FINISH" = "FINISH";
+
+"Add Payment Options" = "Add Payment Options";
+
+"Wallet" = "Wallet";
+
+"Ride History" = "Ride History";
+
+"Your scheduled rides" = "Your scheduled rides";
+
+"Hourly Booking" = "Hourly Booking";
+
+"Airport ride booking" = "Airport ride booking";
+
+"Help" = "Help";
+
+"Logout" = "Logout";
+
+"Use this screen to pre-book a ride to the Airport." = "Use this screen to pre-book a ride to the Airport.";
+
+"Coming out?" = "Coming out?";
+
+"Going to Ariport" = "Going to Ariport";
+
+"Set Pickup Location" = "Set Pickup Location";
+
+"Set Your Date & Time" = "Set Your Date & Time";
+
+"Cancel" = "Cancel";
+
+"Done" = "Done";
+
+"No, its for a later date" = "No, its for a later date";
+
+"Use this screen to book Rentals i.e. Hour based Packages" = "Use this screen to book Rentals i.e. Hour based Packages";
+
+"Enter No. of hours" = "Enter No. of hours";
+
+"Fare Details" = "Fare Details";
+
+"Package Price" = "Package Price";
+
+"Distance" = "Distance";
+
+"Choose your destination" = "Choose your destination";
+
+"Let's GO!" = "Let's GO!";
+
+"Fare Breakdown" = "Fare Breakdown";
+
+"our fare will be the price presented before the trip or based on the rates below and other applicable surcharges and adjustments." = "our fare will be the price presented before the trip or based on the rates below and other applicable surcharges and adjustments.";
+
+"Base Fare" = "Base Fare";
+
+"Minimim Fare" = "Minimim Fare";
+
+"+Per Minute" = "+Per Minute";
+
+"+Per Mile" = "+Per Mile";
+
+"Booking Fee" = "Booking Fee";
+
+"Schedule a new ride" = "Schedule a new ride";
+
+"Select Date and time" = "Select Date and time";
+
+"Schedule" = "Schedule";
+
+"Total Fare" = "Total Fare";
+
+"Home" = "Home";
+
+"Trip Summary" = "Trip Summary";
+
+"Rate the Customer" = "Rate the Customer";
+
+"Submit" = "Submit";
+
+"Approximate Fare" = "Approximate Fare";
+
+"Capacity" = "Capacity";
+
+"Receipt" = "Receipt";
+
+"Time" = "Time";
+
+"Distance" = "Distance";
+
+"Booking Fee" = "Booking Fee";
+
+"Service Tax" = "Service Tax";
+
+"TOTAL" = "TOTAL";
+
+"Requesting…" = "Requesting…";
+
+"Payment Type is Cash" = "Payment Type is Cash";
+
+"Select Issue" = "Select Issue";
+
+"Select Payment Gateway!" = "Select Payment Gateway!";
+
+"YOUR BALANCE" = "YOUR BALANCE";
+
+"Messenger" = "Messenger";
+
+"Type your message" = "Type your message";
+
+"Add Amount" = "Add Amount";
+
+"Or connect using a social account" = "Or connect using a social account";
+
+"Email Id" = "Email Id";
+
+"Sign In" = "Sign In";
+
+"Sign Up" = "Sign Up";
+
+"First Name" = "First Name";
+
+"Last Name" = "Last Name";
+
+"Password" = "Password";
+
+"Male" = "Male";
+
+"Female" = "Female";
+
+"Select Your Country" = "Select Your Country";
+
+"Serach" = "Serach";
+
+"Enter OTP Code" = "Enter OTP Code";
+
+"RESEND" = "RESEND";
+
+"NEW USER?" = "NEW USER?";
+
+"DRIVER ACCEPTED THE REQUEST" = "DRIVER ACCEPTED THE REQUEST";
+
+"DRIVER IS ON THE WAY" = "DRIVER IS ON THE WAY";
+
+"DRIVER HAS ARRIVED AT YOUR PLACE" = "DRIVER HAS ARRIVED AT YOUR PLACE";
+
+"YOUR TRIP HAS BEEN STARTED" = "YOUR TRIP HAS BEEN STARTED";
+
+"YOUR TRIP IS COMPLETED" = "YOUR TRIP IS COMPLETED";
+
+"Are sure you want to logout." = "Are sure you want to logout.";
+
+"Go Online/Go Offline" = "Go Online/Go Offline";
+
+"PICKUP ADDRESS" = "PICKUP ADDRESS";
+
+"Drop location" = "Drop location";
+
+"Ready to drive?" = "Ready to drive?";
+
+"Upload your documents" = "Upload your documents";
+
+"Use the button present above to toggle between Available & Not available ie. If you wish to take a break, you can trun-off your availability" = "Use the button present above to toggle between Available & Not available ie. If you wish to take a break, you can trun-off your availability";
+
+"Am available ow/Not driving now" = "Am available ow/Not driving now";
+
+"What is this?" = "What is this?";
+
+"Tap when Departed" = "Tap when Departed";
+
+
+
